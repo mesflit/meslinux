@@ -1,15 +1,14 @@
-name: Build APK
+name: Build and Deploy APK
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Setup JDK
+      - name: Set up JDK
         uses: actions/setup-java@v2
         with:
           java-version: '11'
@@ -20,3 +19,19 @@ jobs:
         with:
           name: my-app
           path: app/build/outputs/apk/debug/app-debug.apk
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download APK
+        uses: actions/download-artifact@v2
+        with:
+          name: my-app
+      - name: Deploy to Firebase App Distribution
+        uses: wzieba/Firebase-Distribute@v1.1.0
+        with:
+          service_account_key: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+          app_id: ${{ secrets.FIREBASE_APP_ID }}
+          release_notes: 'New release'
+          groups: 'internal-testers'
+          apk_path: ${{ github.workspace }}/app-debug.apk
