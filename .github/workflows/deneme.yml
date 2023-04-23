@@ -14,24 +14,26 @@ jobs:
           java-version: '11'
       - name: Build APK
         run: ./gradlew assembleDebug
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v1.0.0
+          release_name: Release 1.0.0
+          body: |
+            Changes in this release:
+            - Added feature X
+          draft: false
+          prerelease: false
       - name: Upload APK
-        uses: actions/upload-artifact@v2
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: my-app
-          path: app/build/outputs/apk/debug/app-debug.apk
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download APK
-        uses: actions/download-artifact@v2
-        with:
-          name: my-app
-      - name: Deploy to Firebase App Distribution
-        uses: wzieba/Firebase-Distribute@v1.1.0
-        with:
-          service_account_key: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
-          app_id: ${{ secrets.FIREBASE_APP_ID }}
-          release_notes: 'New release'
-          groups: 'internal-testers'
-          apk_path: ${{ github.workspace }}/app-debug.apk
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: app/build/outputs/apk/debug/app-debug.apk
+          asset_name: my-app-debug.apk
+          asset_content_type: application/vnd.android.package-archive
