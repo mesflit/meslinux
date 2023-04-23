@@ -14,7 +14,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Build APK
-        run: ./gradlew assembleDebug
+        run: chmod +x gradlew && ./gradlew assembleDebug
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
