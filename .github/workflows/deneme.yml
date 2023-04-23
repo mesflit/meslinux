@@ -21,8 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH }}
         with:
-          tag_name: v1.0.0
-          release_name: Release 1.0.0
+          tag_name: v1.0.1
+          release_name: Release 1.0.1
           body: |
             Changes in this release:
             - Added feature X
