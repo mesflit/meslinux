@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.mesflit.meslinux.app-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "com.mesflit.meslinux.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/layout/activity_main.xml"
+    }
+]

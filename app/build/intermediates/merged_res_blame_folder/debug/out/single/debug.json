@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/drawable_ic_launcher.png.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mesflit.meslinux.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "com.mesflit.meslinux.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

@@ -1,5 +1,6 @@
 package com.mesflit.meslinux;
 
+import com.mesflit.meslinux.R;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.*;
 import android.util.Log;
@@ -32,12 +33,13 @@ public class MainActivity extends AppCompatActivity {
         Button kaliButton = findViewById(R.id.kalilinux);
         
         
-        
+        kaliButton.setText("Kali Linux");
+        gentooButton.setText("Gentoo Linux");
 
         kaliButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String textToCopy = "wget https://raw.githubusercontent.com/mesflit/proot-distro/main/kaliinstaller.sh; chmod +x kaliinstaller.sh; ./kaliinstaller.sh; rm -rf kaliinstaller.sh;";
+                String textToCopy = "apt update -y && apt install -y wget proot-distro; wget https://raw.githubusercontent.com/mesflit/proot-distro/main/kaliinstaller.sh; chmod +x kaliinstaller.sh; ./kaliinstaller.sh; rm -rf kaliinstaller.sh;";
 
                 ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                 ClipData clipData = ClipData.newPlainText("label", textToCopy);
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         gentooButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String textToCopy = "wget https://raw.githubusercontent.com/mesflit/proot-distro/main/gentooinstaller.sh; chmod +x gentooinstaller.sh; ./gentooinstaller.sh; rm -rf gentooinstaller.sh;";
+                String textToCopy = "apt update -y && apt install -y wget proot-distro; wget https://raw.githubusercontent.com/mesflit/proot-distro/main/gentooinstaller.sh; chmod +x gentooinstaller.sh; ./gentooinstaller.sh; rm -rf gentooinstaller.sh;";
 
                 ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                 ClipData clipData = ClipData.newPlainText("label", textToCopy);

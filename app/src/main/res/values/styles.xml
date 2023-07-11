@@ -1,5 +1,10 @@
 <resources>
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Renkler -->
-      </style>
+    <style name="AppTheme" parent="Theme.AppCompat">
+    <item name="android:windowBackground">@color/background_dark</item>
+    <item name="android:colorPrimary">@color/primary_dark</item>
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+    <item name="android:colorAccent">@color/accent_dark</item>
+    <!-- Diğer stilleri ve özellikleri burada tanımlayabilirsiniz -->
+</style>
+
 </resources>

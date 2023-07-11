@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mesflit.meslinux"
+4    android:versionCode="2"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:23:5-25:15
+12        <package android:name="com.itsaky.androidide" />
+12-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:24:9-57
+12-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:24:18-54
+13    </queries>
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:27:5-67
+15-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:27:22-64
+16    <uses-permission android:name="com.itsaky.androidide.permission.BIND_LOG_SERVICE" />
+16-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:28:5-89
+16-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:28:22-86
+17
+18    <application
+18-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:7:5-24:19
+19        android:allowBackup="true"
+19-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/a8ae712879ce8c88a52d8e9788344966/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@drawable/ic_launcher"
+22-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:9:9-45
+23        android:label="@string/app_name"
+23-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:10:9-41
+24        android:roundIcon="@drawable/ic_launcher"
+24-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:11:9-50
+25        android:supportsRtl="true"
+25-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:12:9-35
+26        android:theme="@style/Theme.Application" >
+26-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:13:9-49
+27        <activity
+27-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:14:9-23:20
+28            android:name="com.mesflit.meslinux.MainActivity"
+28-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:15:13-41
+29            android:exported="true"
+29-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:16:13-36
+30            android:theme="@style/AppTheme" >
+30-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:17:13-44
+31            <intent-filter>
+31-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:18:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:19:17-69
+32-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:19:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:21:17-77
+34-->/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:31:9-35:40
+39            android:name="com.itsaky.androidide.logsender.utils.LogSenderInstaller"
+39-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:32:13-84
+40            android:authorities="com.mesflit.meslinux.logsender-installer"
+40-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:33:13-71
+41            android:enabled="@bool/logsender_enabled"
+41-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:34:13-54
+42            android:exported="false" />
+42-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:35:13-37
+43
+44        <service
+44-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:37:9-39:40
+45            android:name="com.itsaky.androidide.logsender.LogSenderService"
+45-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:38:13-76
+46            android:exported="false" />
+46-->[com.itsaky.androidide:logsender:2.4.1-beta-a5cb7c165-SNAPSHOT] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/bd3120343746bb50411dd450b1278e82/transformed/logsender-2.4.1-beta-a5cb7c165-SNAPSHOT-debug/AndroidManifest.xml:39:13-37
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="com.mesflit.meslinux.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/eb58c084dafe1c8a19c3aba32b9df641/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/a272a8a48b99f3ed40e8f260d9fd8f85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/a272a8a48b99f3ed40e8f260d9fd8f85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/a272a8a48b99f3ed40e8f260d9fd8f85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
