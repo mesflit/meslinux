@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         //Button
         Button gentooButton = findViewById(R.id.gentoo);
         Button kaliButton = findViewById(R.id.kalilinux);
+        Button raspButton = findViewById(R.id.raspberrypi);
         
         
         kaliButton.setText("Kali Linux");
@@ -71,5 +72,24 @@ public class MainActivity extends AppCompatActivity {
                 }
             
         });
+        
+        raspButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String textToCopy = "apt update -y && apt install -y wget proot-distro; wget https://raw.githubusercontent.com/mesflit/proot-distro/main/raspberrypiinstaller.sh; chmod +x raspberrypiinstaller.sh; ./raspberrypiinstaller.sh; rm -rf raspberrypiinstaller.sh;";
+
+                ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+                ClipData clipData = ClipData.newPlainText("label", textToCopy);
+                clipboardManager.setPrimaryClip(clipData);
+
+                Toast.makeText(getApplicationContext(), "Open Termux And Paste", Toast.LENGTH_SHORT).show();
+
+                
+
+                }
+            
+        });
+        
+        
     }
 }

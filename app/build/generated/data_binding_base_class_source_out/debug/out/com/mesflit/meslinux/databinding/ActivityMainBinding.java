@@ -29,12 +29,16 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView linuxdistrostext;
 
+  @NonNull
+  public final Button raspberrypi;
+
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button gentoo,
-      @NonNull Button kalilinux, @NonNull TextView linuxdistrostext) {
+      @NonNull Button kalilinux, @NonNull TextView linuxdistrostext, @NonNull Button raspberrypi) {
     this.rootView = rootView;
     this.gentoo = gentoo;
     this.kalilinux = kalilinux;
     this.linuxdistrostext = linuxdistrostext;
+    this.raspberrypi = raspberrypi;
   }
 
   @Override
@@ -82,7 +86,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, gentoo, kalilinux, linuxdistrostext);
+      id = R.id.raspberrypi;
+      Button raspberrypi = ViewBindings.findChildViewById(rootView, id);
+      if (raspberrypi == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, gentoo, kalilinux, linuxdistrostext,
+          raspberrypi);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,59 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/java/com/mesflit/meslinux/MainActivity.java",
       "selection": {
         "end": {
-          "column": 69,
+          "column": 153,
           "index": -1,
-          "line": 60
+          "line": 78
         },
         "start": {
-          "column": 69,
+          "column": 153,
           "index": -1,
-          "line": 60
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/res/values/themes.xml",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": -1,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": -1,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/res/values/styles.xml",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": -1,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": -1,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/res/values/colors.xml",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": -1,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": -1,
-          "line": 0
+          "line": 78
         }
       }
     }

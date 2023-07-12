@@ -16,6 +16,7 @@ drawable ic_launcher_foreground
 id gentoo
 id kalilinux
 id linuxdistrostext
+id raspberrypi
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

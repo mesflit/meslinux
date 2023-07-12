@@ -43,6 +43,15 @@
                  android:text="Gentoo Linux"
                 android:textAllCaps="false" />
 
+            
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:id="@+id/raspberrypi"
+                 android:text="Raspberry Pi"
+                android:textAllCaps="false" />
+            
         </LinearLayout>
 
     </ScrollView>
