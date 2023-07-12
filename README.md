@@ -1,14 +1,30 @@
 # What is MesLinux?
 
-MesLinux is a ready-made code program usually written for Termux on Android phones. So these codes run on a computer
+It is an application that contains ready and up-to-date scripts, bashs, codes for Termux.
 
 # What are MesLinux features?
 
 Currently there are only kali and gentoo distributions. But these will increase and be added to other things like termux virgl installation.
 
+# Who is this app for?
+
+usually for termux users
+
+# How to Use This Application?
+
+Very simple. For example, you want to install kali linux on termux. Go to "Linux Distros" and click on kali linux, it will copy everything for you. all you have to do is enter Termux and paste this code.
+
 # Is MesLinux safe?
 
 Yes, we are completely open source, you can compile and install the source code. (Even on the phone)
+
+# Are there similar tools already out to compare it to?
+
+Of course there is. for example AnLinux
+
+# How would this be better than those other tools?
+
+We are more updated And we are adding new things every day. If there is anything you want us to add, you can mention it in the issues section.
 
 # Installing From Source Code
 
