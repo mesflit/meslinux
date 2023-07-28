@@ -29,7 +29,22 @@
           "line": 13
         }
       }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/README.md",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": -1,
+          "line": 50
+        },
+        "start": {
+          "column": 0,
+          "index": -1,
+          "line": 50
+        }
+      }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/build.gradle"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/meslinux/README.md"
 }
