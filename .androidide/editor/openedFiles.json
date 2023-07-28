@@ -34,14 +34,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/README.md",
       "selection": {
         "end": {
-          "column": 0,
+          "column": 2,
           "index": -1,
-          "line": 50
+          "line": 47
         },
         "start": {
-          "column": 0,
+          "column": 2,
           "index": -1,
-          "line": 50
+          "line": 47
         }
       }
     }
