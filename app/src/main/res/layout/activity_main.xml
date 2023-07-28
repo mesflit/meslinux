@@ -6,7 +6,12 @@
      android:layout_width="match_parent"
      android:orientation="vertical"
      tools:context=".MainActivity">
-
+    
+    
+            
+            
+    
+    
     <ScrollView
          android:layout_height="match_parent"
          android:layout_width="match_parent">
@@ -16,40 +21,127 @@
              android:layout_width="match_parent"
              android:orientation="vertical">
 
+
             <TextView
                  android:layout_height="wrap_content"
                  android:layout_width="match_parent"
-                 android:gravity="center"
+                 android:gravity="left|center"
                  android:textSize="24dp"
                  android:textColor="#ff0000"
-                 android:text="Linux Distros"
-                 android:textStyle="bold"
-                android:id="@+id/linuxdistrostext"
-                android:textAllCaps="false" />
-
-            <Button
-                 android:layout_height="wrap_content"
-                 android:layout_width="match_parent"
-                 android:gravity="center"
-                 android:id="@+id/kalilinux"
                  android:text="Kali Linux"
+                 android:textStyle="bold"
+                android:id="@+id/kalilinuxtext"
                 android:textAllCaps="false" />
 
             <Button
                  android:layout_height="wrap_content"
                  android:layout_width="match_parent"
-                 android:gravity="center"
-                 android:id="@+id/gentoo"
-                 android:text="Gentoo Linux"
+                 android:gravity="left|center"
+                 android:id="@+id/kalilinux"
+                 android:text="Install Kali Linux "
                 android:textAllCaps="false" />
 
+          <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:textSize="24dp"
+                 android:textColor="#ff0000"
+                 android:text="Gentoo Linux"
+                 android:textStyle="bold"
+                android:id="@+id/gentootext"
+                android:textAllCaps="false" />
             
             <Button
                  android:layout_height="wrap_content"
                  android:layout_width="match_parent"
-                 android:gravity="center"
-                 android:id="@+id/raspberrypi"
+                 android:gravity="left|center"
+                 android:id="@+id/gentoo"
+                 android:text="Install Gentoo Linux "
+                android:textAllCaps="false" />
+
+            
+           <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:textSize="24dp"
+                 android:textColor="#ff0000"
                  android:text="Raspberry Pi"
+                 android:textStyle="bold"
+                android:id="@+id/Raspberrypitext"
+                android:textAllCaps="false" />
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:id="@+id/raspberrypi"
+                 android:text="Install Raspberry Pi"
+                android:textAllCaps="false" />
+            
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:textSize="24dp"
+                 android:textColor="#ff0000"
+                 android:text="Void Linux"
+                 android:textStyle="bold"
+                android:id="@+id/voidlinuxtext"
+                android:textAllCaps="false" />
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:id="@+id/voidlinuxglibc"
+                 android:text="Install Void Linux Glibc"
+                android:textAllCaps="false" />
+            
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:textSize="24dp"
+                 android:textColor="#ff0000"
+                 android:text="Box64Droid"
+                 android:textStyle="bold"
+                android:id="@+id/box64droidtext"
+                android:textAllCaps="false" />
+            
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:textSize="12dp"
+                 android:textColor="#ffffff"
+                 android:text="After the installation is completed, type box64droid --start, starting script will start Termux-X11 and show start menu."
+                 android:textStyle="normal"
+                android:textAllCaps="false" />
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:id="@+id/box64droid"
+                 android:text="Install Box64Droid"
+                android:textAllCaps="false" />
+            
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="left|center"
+                android:textSize="24dp"
+                android:textColor="#ff0000"
+                android:text="Support Me"
+                android:textStyle="bold"
+                android:id="@+id/supportme"
+                android:textAllCaps="false" />
+            
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="left|center"
+                 android:id="@+id/coffee"
+                 android:text="Buy Me a Coffee"
                 android:textAllCaps="false" />
             
         </LinearLayout>

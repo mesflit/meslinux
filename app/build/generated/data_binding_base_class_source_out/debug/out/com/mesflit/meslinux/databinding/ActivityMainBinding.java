@@ -21,24 +21,59 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextView Raspberrypitext;
+
+  @NonNull
+  public final Button box64droid;
+
+  @NonNull
+  public final TextView box64droidtext;
+
+  @NonNull
+  public final Button coffee;
+
+  @NonNull
   public final Button gentoo;
+
+  @NonNull
+  public final TextView gentootext;
 
   @NonNull
   public final Button kalilinux;
 
   @NonNull
-  public final TextView linuxdistrostext;
+  public final TextView kalilinuxtext;
 
   @NonNull
   public final Button raspberrypi;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button gentoo,
-      @NonNull Button kalilinux, @NonNull TextView linuxdistrostext, @NonNull Button raspberrypi) {
+  @NonNull
+  public final TextView supportme;
+
+  @NonNull
+  public final Button voidlinuxglibc;
+
+  @NonNull
+  public final TextView voidlinuxtext;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull TextView Raspberrypitext,
+      @NonNull Button box64droid, @NonNull TextView box64droidtext, @NonNull Button coffee,
+      @NonNull Button gentoo, @NonNull TextView gentootext, @NonNull Button kalilinux,
+      @NonNull TextView kalilinuxtext, @NonNull Button raspberrypi, @NonNull TextView supportme,
+      @NonNull Button voidlinuxglibc, @NonNull TextView voidlinuxtext) {
     this.rootView = rootView;
+    this.Raspberrypitext = Raspberrypitext;
+    this.box64droid = box64droid;
+    this.box64droidtext = box64droidtext;
+    this.coffee = coffee;
     this.gentoo = gentoo;
+    this.gentootext = gentootext;
     this.kalilinux = kalilinux;
-    this.linuxdistrostext = linuxdistrostext;
+    this.kalilinuxtext = kalilinuxtext;
     this.raspberrypi = raspberrypi;
+    this.supportme = supportme;
+    this.voidlinuxglibc = voidlinuxglibc;
+    this.voidlinuxtext = voidlinuxtext;
   }
 
   @Override
@@ -68,9 +103,39 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Raspberrypitext;
+      TextView Raspberrypitext = ViewBindings.findChildViewById(rootView, id);
+      if (Raspberrypitext == null) {
+        break missingId;
+      }
+
+      id = R.id.box64droid;
+      Button box64droid = ViewBindings.findChildViewById(rootView, id);
+      if (box64droid == null) {
+        break missingId;
+      }
+
+      id = R.id.box64droidtext;
+      TextView box64droidtext = ViewBindings.findChildViewById(rootView, id);
+      if (box64droidtext == null) {
+        break missingId;
+      }
+
+      id = R.id.coffee;
+      Button coffee = ViewBindings.findChildViewById(rootView, id);
+      if (coffee == null) {
+        break missingId;
+      }
+
       id = R.id.gentoo;
       Button gentoo = ViewBindings.findChildViewById(rootView, id);
       if (gentoo == null) {
+        break missingId;
+      }
+
+      id = R.id.gentootext;
+      TextView gentootext = ViewBindings.findChildViewById(rootView, id);
+      if (gentootext == null) {
         break missingId;
       }
 
@@ -80,9 +145,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linuxdistrostext;
-      TextView linuxdistrostext = ViewBindings.findChildViewById(rootView, id);
-      if (linuxdistrostext == null) {
+      id = R.id.kalilinuxtext;
+      TextView kalilinuxtext = ViewBindings.findChildViewById(rootView, id);
+      if (kalilinuxtext == null) {
         break missingId;
       }
 
@@ -92,8 +157,27 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, gentoo, kalilinux, linuxdistrostext,
-          raspberrypi);
+      id = R.id.supportme;
+      TextView supportme = ViewBindings.findChildViewById(rootView, id);
+      if (supportme == null) {
+        break missingId;
+      }
+
+      id = R.id.voidlinuxglibc;
+      Button voidlinuxglibc = ViewBindings.findChildViewById(rootView, id);
+      if (voidlinuxglibc == null) {
+        break missingId;
+      }
+
+      id = R.id.voidlinuxtext;
+      TextView voidlinuxtext = ViewBindings.findChildViewById(rootView, id);
+      if (voidlinuxtext == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, Raspberrypitext, box64droid,
+          box64droidtext, coffee, gentoo, gentootext, kalilinux, kalilinuxtext, raspberrypi,
+          supportme, voidlinuxglibc, voidlinuxtext);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

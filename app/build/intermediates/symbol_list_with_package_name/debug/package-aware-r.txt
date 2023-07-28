@@ -2525,6 +2525,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id Raspberrypitext
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2616,6 +2617,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id box64droid
+id box64droidtext
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2643,6 +2646,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id coffee
 id collapseActionView
 id compress
 id confirm_button
@@ -2723,6 +2727,7 @@ id fragment_container_view_tag
 id frost
 id fullscreen_header
 id gentoo
+id gentootext
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2758,6 +2763,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id kalilinux
+id kalilinuxtext
 id labeled
 id layout
 id left
@@ -2766,7 +2772,6 @@ id legacy
 id line1
 id line3
 id linear
-id linuxdistrostext
 id listMode
 id list_item
 id masked
@@ -2938,6 +2943,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id supportme
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3001,6 +3007,8 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id voidlinuxglibc
+id voidlinuxtext
 id west
 id withText
 id withinBounds

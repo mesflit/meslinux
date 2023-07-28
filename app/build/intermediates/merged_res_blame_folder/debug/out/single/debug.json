@@ -64,6 +64,10 @@
         "source": "com.mesflit.meslinux.app-main-28:/layout/activity_main.xml"
     },
     {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/drawable_red_button.png.flat",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/drawable/red_button.png"
+    },
+    {
         "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/7.4.2/com.mesflit.meslinux.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
     }

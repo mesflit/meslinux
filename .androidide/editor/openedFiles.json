@@ -1,20 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/java/com/mesflit/meslinux/MainActivity.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/build.gradle",
       "selection": {
         "end": {
-          "column": 153,
+          "column": 0,
           "index": -1,
-          "line": 78
+          "line": 0
         },
         "start": {
-          "column": 153,
+          "column": 0,
           "index": -1,
-          "line": 78
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/build.gradle",
+      "selection": {
+        "end": {
+          "column": 26,
+          "index": -1,
+          "line": 13
+        },
+        "start": {
+          "column": 26,
+          "index": -1,
+          "line": 13
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/src/main/java/com/mesflit/meslinux/MainActivity.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/meslinux/app/build.gradle"
 }
